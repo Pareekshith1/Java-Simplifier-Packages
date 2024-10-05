@@ -10,7 +10,7 @@ The Arraysorter class is designed to sort an array of integers using the Bubble 
    ArraySorter sorter = new ArraySorter(data);
 ```
 
-# 2) PrintUtils
+# 2) PrintUtil
 The PrintUtils package is for simplifying the print statement where by using this package the user won't have to enter the old traditional print statement :
 ``` bash
    System.out.print("hello world");
@@ -26,12 +26,12 @@ instead, you can download this file and import the package by :
 ```
 #### For simple printf() function
 ```bash
-   import static Printutil.printf;
+   import static PrintUtil.printf;
 ```
 Now you can easily use the new print function and then print the output .
 Example code :
 ``` bash
-    import static PrintUtil.print;   
+import static PrintUtil.print;   
 import static PrintUtil.println;  
 import static PrintUtil.printf;   
 
