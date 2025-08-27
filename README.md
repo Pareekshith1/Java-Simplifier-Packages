@@ -70,9 +70,11 @@ First, import the package:
 
 ```java
 import PalindromeChecker;
+```
 
-//Then, call the method in your code:
+Then, call the method in your code:
 
+```java
 public class Main {
     public static void main(String[] args) {
         String word1 = "malayalam";
