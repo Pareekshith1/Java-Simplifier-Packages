@@ -1,39 +1,52 @@
 # Java-Simplifier-Packages
+
 Here are some simple Java packages to make your life easier and Java-friendly
 
-# 1) The Arraysorter 
+# 1) The Arraysorter
+
 The Arraysorter class is designed to sort an array of integers using the Bubble Sort algorithm. This basic sorting algorithm repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
 
 ### usage
 
-``` bash
+```bash
    ArraySorter sorter = new ArraySorter(data);
 ```
 
 # 2) PrintUtil
+
 The PrintUtils package is for simplifying the print statement where by using this package the user won't have to enter the old traditional print statement :
-``` bash
+
+```bash
    System.out.print("hello world");
 ```
+
 instead, you can download this file and import the package by :
+
 #### For Simple print() function
-``` bash
+
+```bash
    import static PrintUtil.print;
 ```
+
 #### For Simple println() function
+
 ```bash
    import static PrintUtil.println;
 ```
+
 #### For simple printf() function
+
 ```bash
    import static PrintUtil.printf;
 ```
+
 Now you can easily use the new print function and then print the output .
 Example code :
-``` bash
-import static PrintUtil.print;   
-import static PrintUtil.println;  
-import static PrintUtil.printf;   
+
+```bash
+import static PrintUtil.print;
+import static PrintUtil.println;
+import static PrintUtil.printf;
 
 public class Main {
     public static void main(String[] args) {
@@ -46,5 +59,38 @@ public class Main {
 
 ```
 
+# 3) PalindromeChecker
 
+The **PalindromeChecker** package provides a simple way to check if a given string is a palindrome.  
+A palindrome is a word, phrase, or sequence that reads the same backward as forward (e.g., _madam, malayalam, racecar_).
 
+### Usage
+
+First, import the package:
+
+```java
+import PalindromeChecker;
+
+//Then, call the method in your code:
+
+public class Main {
+    public static void main(String[] args) {
+        String word1 = "malayalam";
+        String word2 = "hello";
+
+        System.out.println(PalindromeChecker.isPalindrome(word1)); // true
+        System.out.println(PalindromeChecker.isPalindrome(word2)); // false
+    }
+}
+```
+
+### Example Output
+
+```
+true
+false
+```
+
+> Note: Adjust the package name in the `import` statement based on where you place the PalindromeChecker class.
+
+---

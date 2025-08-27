@@ -1,5 +1,3 @@
-package sorting; // Define the package
-
 public class Arraysorter {
     // Method to sort the array using bubble sort and return the sorted array
     public int[] Arraysorter(int[] sorter) {
